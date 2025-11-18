@@ -21,7 +21,7 @@ const getBgColor = (): string => {
   return `rgb(${red}, ${green}, ${blue})`;
 };
 
-const transition = 'all 1s';
+const transition = 'all 2s';
 
 function App() {
   const [quote, setQuote] = useState<Quote>(getRandomQuote());
